@@ -1,0 +1,16 @@
+.sidebarNavOn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid #999999;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.sidebarNavOff {
+  position: fixed;
+  left: -100%;
+  transition: all 0.5s ease-in-out;
+}
